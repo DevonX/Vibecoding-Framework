@@ -224,6 +224,26 @@
       },
       "toNode": "926322ba6632c064",
       "toSide": "right"
+    },
+    {
+      "fromNode": "36023878ba3ff776",
+      "fromSide": "left",
+      "id": "088a54f45a65b8e1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "e29f454d03a8781c",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "36023878ba3ff776",
+      "fromSide": "left",
+      "id": "1442463574fbceb2",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "4031596c51df87f3",
+      "toSide": "right"
     }
   ],
   "nodes": [
@@ -283,7 +303,7 @@
       },
       "text": "Taskmaster",
       "type": "text",
-      "width": 260,
+      "width": 290,
       "x": 350,
       "y": -400
     },
@@ -295,7 +315,7 @@
       },
       "text": "Project rules",
       "type": "text",
-      "width": 260,
+      "width": 290,
       "x": 350,
       "y": -300
     },
@@ -307,7 +327,7 @@
       },
       "text": "Technical stack",
       "type": "text",
-      "width": 260,
+      "width": 290,
       "x": 350,
       "y": -210
     },
@@ -317,9 +337,9 @@
       "id": "eb209b991e0981d8",
       "styleAttributes": {
       },
-      "text": "MCP's",
+      "text": "**Model Context Protocol** (MCP)",
       "type": "text",
-      "width": 260,
+      "width": 290,
       "x": 350,
       "y": -120
     },
@@ -329,22 +349,11 @@
       "id": "2fe6f9ba4c2928bf",
       "styleAttributes": {
       },
-      "text": "A2A",
+      "text": "Agent2Agent Protocol (A2A)",
       "type": "text",
-      "width": 260,
+      "width": 290,
       "x": 350,
       "y": -20
-    },
-    {
-      "height": 80,
-      "id": "812a92839fda3068",
-      "styleAttributes": {
-      },
-      "text": "Needs to have a solution that is not API based to minimize costs",
-      "type": "text",
-      "width": 260,
-      "x": 690,
-      "y": -410
     },
     {
       "height": 60,
@@ -454,8 +463,8 @@
       },
       "text": "### START",
       "type": "text",
-      "width": 120,
-      "x": -683,
+      "width": 137,
+      "x": -700,
       "y": 137
     },
     {
@@ -492,15 +501,48 @@
       "y": 137
     },
     {
-      "height": 370,
+      "height": 60,
+      "id": "36023878ba3ff776",
+      "styleAttributes": {
+      },
+      "text": "Project specific ",
+      "type": "text",
+      "width": 230,
+      "x": 720,
+      "y": -300
+    },
+    {
+      "height": 110,
+      "id": "812a92839fda3068",
+      "styleAttributes": {
+      },
+      "text": "Needs to have a solution that is not API based to minimize costs",
+      "type": "text",
+      "width": 260,
+      "x": 720,
+      "y": -425
+    },
+    {
+      "height": 180,
+      "id": "c77324f62d766302",
+      "styleAttributes": {
+      },
+      "text": "## List of common LLM flaws to watch out for\n- Hallucinations\n- context degration",
+      "type": "text",
+      "width": 459,
+      "x": -285,
+      "y": 500
+    },
+    {
+      "height": 390,
       "id": "e5ac3e86b0e8fa08",
       "styleAttributes": {
       },
       "text": "## About the framework\nThis is a framework that is made to make working with vibe coding as efficient and as cheap as possible, that means no running API costs and as little of subscriptions as possible, This workflow is changing as soon as the tools gets better and there is new methods that makes the workflow either easier to work with, cheaper, faster and so on. Right now the framework is set around cursor because it gives you \"unlimited\" API access to the models that it provides without you stumbling into unforeseen cost that might run rampant because of some API that is hard to track, I know there is other projects out there that is \"free\" to use but either require a direct API key or running the plugin on a local model. As of now there is not any model that i know of that can do well enough on the tasks that is required to complete a project. That might change in the future. I also try to avoid web based solutions because the terms might change and therefore the costs might change too. Having everything local and free makes it so that when the system gets good enough you can just start it and leave it without having to worry about you wallet getting empty. ",
       "type": "text",
       "width": 766,
-      "x": -1026,
-      "y": 250
+      "x": -1112,
+      "y": 290
     }
   ]
 }
