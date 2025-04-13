@@ -412,11 +412,11 @@
       "y": 137
     },
     {
-      "height": 250,
+      "height": 295,
       "id": "3c9a49b1dc4b6afe",
       "styleAttributes": {
       },
-      "text": "## Things to consider \n\n- Chat length \n- context window \n- different ai models for different tasks\n- parallel promoting\n- Context integrity\n- Size of the file that contains the code",
+      "text": "## Things to consider \n\n- Chat length \n- context window \n- different ai models for different tasks\n- parallel promoting\n- Context integrity\n- Size of the file that contains the code\n- Price to performance",
       "type": "text",
       "width": 430,
       "x": 350,
@@ -543,6 +543,18 @@
       "width": 766,
       "x": -1112,
       "y": 290
+    },
+    {
+      "color": "6",
+      "height": 150,
+      "id": "3ecd7791f3556c87",
+      "styleAttributes": {
+      },
+      "text": "### Current total cost of the whole workflow\n$20 a month",
+      "type": "text",
+      "width": 260,
+      "x": -1060,
+      "y": 100
     }
   ]
 }

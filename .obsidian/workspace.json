@@ -25,17 +25,14 @@
             "id": "8a6f08779e0fd0b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Vibecoding workflow in cursor.canvas",
-                "viewState": {
-                  "x": -34.83685670114161,
-                  "y": 434.35764706083165,
-                  "zoom": -0.7839086010101235
-                }
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Vibecoding workflow in cursor"
+              "icon": "lucide-file",
+              "title": "readme"
             }
           }
         ],
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vibecoding workflow in cursor.canvas",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vibecoding workflow in cursor"
+              "title": "Backlinks for readme"
             }
           },
           {
@@ -197,10 +194,10 @@
   },
   "active": "8a6f08779e0fd0b2",
   "lastOpenFiles": [
+    "Vibecoding workflow in cursor.canvas",
     "readme.md",
     "requirements.md",
     "images/framework.png",
-    "Vibecoding workflow in cursor.canvas",
     "LICENSE",
     "vibecodeFrameworkGitClone",
     "New folder",
