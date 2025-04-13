@@ -48,17 +48,6 @@
       "toSide": "left"
     },
     {
-      "fromNode": "6a77c10668d456c5",
-      "fromSide": "top",
-      "id": "3e8bc785a01f4a53",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "toEnd": "none",
-      "toNode": "78252e573adaa700",
-      "toSide": "bottom"
-    },
-    {
       "fromNode": "14bae7c208f10550",
       "fromSide": "right",
       "id": "432598a67dba2882",
@@ -67,28 +56,6 @@
       },
       "toEnd": "none",
       "toNode": "7d7eedf7a2059178",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "14bae7c208f10550",
-      "fromSide": "left",
-      "id": "4810311ebff3fe94",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "toEnd": "none",
-      "toNode": "48aae66d2bddd621",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "663eb4217753bd3b",
-      "fromSide": "left",
-      "id": "10346fa0d9b526fc",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "toEnd": "none",
-      "toNode": "48aae66d2bddd621",
       "toSide": "bottom"
     },
     {
@@ -250,6 +217,56 @@
       },
       "toNode": "4031596c51df87f3",
       "toSide": "right"
+    },
+    {
+      "fromNode": "14bae7c208f10550",
+      "fromSide": "left",
+      "id": "065e641116c1d877",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "48aae66d2bddd621",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "663eb4217753bd3b",
+      "fromSide": "left",
+      "id": "b349861009daea55",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "48aae66d2bddd621",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "6a77c10668d456c5",
+      "fromSide": "top",
+      "id": "0bbc07061d4a610e",
+      "styleAttributes": {
+      },
+      "toNode": "78252e573adaa700",
+      "toSide": "bottom"
+    },
+    {
+      "color": "5",
+      "fromNode": "76e6f9020445d485",
+      "fromSide": "left",
+      "id": "92c39a92beeb546c",
+      "styleAttributes": {
+      },
+      "toNode": "eb209b991e0981d8",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "81ba03c1f84c282d",
+      "fromSide": "left",
+      "id": "1f4fe18705c968a0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "4716f0059bdb5d0a",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -261,32 +278,9 @@
       "styleAttributes": {
       },
       "type": "group",
-      "width": 1300,
+      "width": 1320,
       "x": -1080,
       "y": -700
-    },
-    {
-      "height": 60,
-      "id": "78252e573adaa700",
-      "styleAttributes": {
-      },
-      "text": "Push to github",
-      "type": "text",
-      "width": 200,
-      "x": 420,
-      "y": 137
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "4716f0059bdb5d0a",
-      "styleAttributes": {
-      },
-      "text": "Cursor project",
-      "type": "text",
-      "width": 181,
-      "x": 199,
-      "y": 137
     },
     {
       "color": "4",
@@ -321,145 +315,6 @@
       "width": 171,
       "x": -306,
       "y": 137
-    },
-    {
-      "height": 60,
-      "id": "7d7eedf7a2059178",
-      "styleAttributes": {
-      },
-      "text": "Product requirements document (PRD)",
-      "type": "text",
-      "width": 248,
-      "x": -100,
-      "y": 137
-    },
-    {
-      "height": 60,
-      "id": "14bae7c208f10550",
-      "styleAttributes": {
-      },
-      "text": "OpenAI",
-      "type": "text",
-      "width": 164,
-      "x": -183,
-      "y": 220
-    },
-    {
-      "height": 60,
-      "id": "663eb4217753bd3b",
-      "styleAttributes": {
-      },
-      "text": "Claude 3.7",
-      "type": "text",
-      "width": 164,
-      "x": -183,
-      "y": 280
-    },
-    {
-      "height": 60,
-      "id": "aea7c1cf597b4584",
-      "styleAttributes": {
-      },
-      "text": "Gemini 3.5",
-      "type": "text",
-      "width": 164,
-      "x": -183,
-      "y": 340
-    },
-    {
-      "height": 60,
-      "id": "2f3bab4ccf1de033",
-      "styleAttributes": {
-      },
-      "text": "Local model?",
-      "type": "text",
-      "width": 164,
-      "x": -182,
-      "y": 400
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "926322ba6632c064",
-      "styleAttributes": {
-      },
-      "text": "Taskmaster",
-      "type": "text",
-      "width": 290,
-      "x": 380,
-      "y": -380
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "e29f454d03a8781c",
-      "styleAttributes": {
-      },
-      "text": "Project rules",
-      "type": "text",
-      "width": 290,
-      "x": 380,
-      "y": -320
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "4031596c51df87f3",
-      "styleAttributes": {
-      },
-      "text": "Technical stack",
-      "type": "text",
-      "width": 290,
-      "x": 380,
-      "y": -260
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "eb209b991e0981d8",
-      "styleAttributes": {
-      },
-      "text": "**Model Context Protocol** (MCP)",
-      "type": "text",
-      "width": 290,
-      "x": 380,
-      "y": -200
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "2fe6f9ba4c2928bf",
-      "styleAttributes": {
-      },
-      "text": "Agent2Agent Protocol (A2A)",
-      "type": "text",
-      "width": 290,
-      "x": 380,
-      "y": -140
-    },
-    {
-      "color": "5",
-      "height": 110,
-      "id": "812a92839fda3068",
-      "styleAttributes": {
-      },
-      "text": "Needs to have a solution that is not API based to minimize costs",
-      "type": "text",
-      "width": 250,
-      "x": 750,
-      "y": -430
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "36023878ba3ff776",
-      "styleAttributes": {
-      },
-      "text": "Project specific ",
-      "type": "text",
-      "width": 250,
-      "x": 750,
-      "y": -320
     },
     {
       "color": "5",
@@ -532,6 +387,144 @@
       "y": 290
     },
     {
+      "height": 60,
+      "id": "14bae7c208f10550",
+      "styleAttributes": {
+      },
+      "text": "OpenAI",
+      "type": "text",
+      "width": 164,
+      "x": -183,
+      "y": 220
+    },
+    {
+      "height": 60,
+      "id": "663eb4217753bd3b",
+      "styleAttributes": {
+      },
+      "text": "Claude 3.7",
+      "type": "text",
+      "width": 164,
+      "x": -183,
+      "y": 280
+    },
+    {
+      "height": 60,
+      "id": "aea7c1cf597b4584",
+      "styleAttributes": {
+      },
+      "text": "Gemini 3.5",
+      "type": "text",
+      "width": 164,
+      "x": -183,
+      "y": 340
+    },
+    {
+      "height": 60,
+      "id": "2f3bab4ccf1de033",
+      "styleAttributes": {
+      },
+      "text": "Local model?",
+      "type": "text",
+      "width": 164,
+      "x": -182,
+      "y": 400
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "926322ba6632c064",
+      "styleAttributes": {
+      },
+      "text": "Taskmaster",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -380
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "e29f454d03a8781c",
+      "styleAttributes": {
+      },
+      "text": "Project rules",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -320
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "4031596c51df87f3",
+      "styleAttributes": {
+      },
+      "text": "Technical stack",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -260
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "eb209b991e0981d8",
+      "styleAttributes": {
+      },
+      "text": "**Model Context Protocol** (MCP)",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -200
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "2fe6f9ba4c2928bf",
+      "styleAttributes": {
+      },
+      "text": "### Agent2Agent Protocol (A2A\nVery new technology. will get updated when more comes online.",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -140
+    },
+    {
+      "height": 60,
+      "id": "78252e573adaa700",
+      "styleAttributes": {
+      },
+      "text": "Push to github",
+      "type": "text",
+      "width": 200,
+      "x": 420,
+      "y": 137
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "4716f0059bdb5d0a",
+      "styleAttributes": {
+      },
+      "text": "Cursor project",
+      "type": "text",
+      "width": 181,
+      "x": 199,
+      "y": 137
+    },
+    {
+      "height": 60,
+      "id": "7d7eedf7a2059178",
+      "styleAttributes": {
+      },
+      "text": "Product requirements document (PRD)",
+      "type": "text",
+      "width": 248,
+      "x": -100,
+      "y": 137
+    },
+    {
       "height": 295,
       "id": "3c9a49b1dc4b6afe",
       "styleAttributes": {
@@ -563,6 +556,65 @@
       "width": 200,
       "x": 680,
       "y": 137
+    },
+    {
+      "color": "5",
+      "height": 175,
+      "id": "812a92839fda3068",
+      "styleAttributes": {
+      },
+      "text": "Not to be confused with the Taskmaster project on GitHub. While that project is amazing it requires a API key that has running costs, this is outside the scope of this framework. The taskmaster needs to have a solution that is not API based to minimize costs.",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -437
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "36023878ba3ff776",
+      "styleAttributes": {
+      },
+      "text": "Project specific ",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -260
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "76e6f9020445d485",
+      "styleAttributes": {
+      },
+      "text": "(Insert MCP servers here)",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -200
+    },
+    {
+      "height": 370,
+      "id": "9282e76507cebda9",
+      "styleAttributes": {
+      },
+      "text": "# Future framework improvements\n- A protocol that looks for code snippets in a public library that fills the requirements of the task needed instead of the AI generating code every time again and again. This will ensure that the code works every time because the code is tested and works and it will reduce the workload of the agents making the project.\n- An Appstore of agents that uses the A2A protocol that is specialised for certain tasks improving efficiency. ",
+      "type": "text",
+      "width": 445,
+      "x": 780,
+      "y": 310
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "81ba03c1f84c282d",
+      "styleAttributes": {
+      },
+      "text": "Automated unit testing",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -440
     }
   ]
 }

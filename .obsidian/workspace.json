@@ -29,8 +29,8 @@
               "state": {
                 "file": "Vibecoding workflow in cursor.canvas",
                 "viewState": {
-                  "x": -40,
-                  "y": -10,
+                  "x": 73.65613099771508,
+                  "y": 10.810357958872714,
                   "zoom": -0.20930487452257965
                 }
               },
@@ -93,10 +93,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "dc227e44dfd458bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d35712436c530544",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "60b6c92224f67d2b",
@@ -159,30 +175,22 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Vibecoding workflow in cursor.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "d35712436c530544",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Vibecoding workflow in cursor"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 371.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
