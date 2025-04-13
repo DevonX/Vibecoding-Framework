@@ -37,7 +37,7 @@
       "fromNode": "4716f0059bdb5d0a",
       "fromSide": "right",
       "id": "d69824714a8c45cd",
-      "toNode": "78252e573adaa700",
+      "toNode": "9ed7f99c33736348",
       "toSide": "left"
     },
     {
@@ -267,6 +267,24 @@
       },
       "toNode": "4716f0059bdb5d0a",
       "toSide": "bottom"
+    },
+    {
+      "fromNode": "9ed7f99c33736348",
+      "fromSide": "right",
+      "id": "d62954cc1ccaf16e",
+      "styleAttributes": {
+      },
+      "toNode": "78252e573adaa700",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bc5876ca8bdf96f8",
+      "fromSide": "right",
+      "id": "3a9bf18ef534f99a",
+      "styleAttributes": {
+      },
+      "toNode": "2f3bab4ccf1de033",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -364,17 +382,6 @@
       "y": 137
     },
     {
-      "height": 60,
-      "id": "78252e573adaa700",
-      "styleAttributes": {
-      },
-      "text": "Push to [GitHub](https://github.com/)",
-      "type": "text",
-      "width": 200,
-      "x": 420,
-      "y": 137
-    },
-    {
       "color": "5",
       "height": 60,
       "id": "4716f0059bdb5d0a",
@@ -384,17 +391,6 @@
       "type": "text",
       "width": 181,
       "x": 199,
-      "y": 137
-    },
-    {
-      "height": 60,
-      "id": "81b2adb69f6fa6f8",
-      "styleAttributes": {
-      },
-      "text": "Finished product",
-      "type": "text",
-      "width": 200,
-      "x": 680,
       "y": 137
     },
     {
@@ -514,29 +510,6 @@
       "y": 400
     },
     {
-      "height": 60,
-      "id": "6a77c10668d456c5",
-      "styleAttributes": {
-      },
-      "text": "Project description",
-      "type": "text",
-      "width": 200,
-      "x": 420,
-      "y": 220
-    },
-    {
-      "color": "6",
-      "height": 180,
-      "id": "3ecd7791f3556c87",
-      "styleAttributes": {
-      },
-      "text": "### Current total cost of the whole workflow\n$20 a month",
-      "type": "text",
-      "width": 260,
-      "x": -606,
-      "y": 250
-    },
-    {
       "file": "md files/List of common LLM flaws to watch out for.md",
       "height": 425,
       "id": "5c4308731365df52",
@@ -626,6 +599,73 @@
       "width": 400,
       "x": 830,
       "y": 525
+    },
+    {
+      "height": 60,
+      "id": "9ed7f99c33736348",
+      "styleAttributes": {
+      },
+      "text": "Documentation",
+      "type": "text",
+      "width": 200,
+      "x": 440,
+      "y": 137
+    },
+    {
+      "height": 60,
+      "id": "6a77c10668d456c5",
+      "styleAttributes": {
+      },
+      "text": "Project description",
+      "type": "text",
+      "width": 200,
+      "x": 703,
+      "y": 220
+    },
+    {
+      "height": 60,
+      "id": "78252e573adaa700",
+      "styleAttributes": {
+      },
+      "text": "Push to [GitHub](https://github.com/)",
+      "type": "text",
+      "width": 200,
+      "x": 703,
+      "y": 137
+    },
+    {
+      "height": 60,
+      "id": "81b2adb69f6fa6f8",
+      "styleAttributes": {
+      },
+      "text": "Finished product",
+      "type": "text",
+      "width": 200,
+      "x": 963,
+      "y": 137
+    },
+    {
+      "height": 60,
+      "id": "bc5876ca8bdf96f8",
+      "styleAttributes": {
+      },
+      "text": "[Big code models leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)",
+      "type": "text",
+      "width": 325,
+      "x": -631,
+      "y": 400
+    },
+    {
+      "color": "6",
+      "height": 97,
+      "id": "3ecd7791f3556c87",
+      "styleAttributes": {
+      },
+      "text": "### Current total cost of the whole workflow\n$20 a month",
+      "type": "text",
+      "width": 480,
+      "x": -786,
+      "y": 250
     }
   ]
 }
