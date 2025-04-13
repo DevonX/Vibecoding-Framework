@@ -521,17 +521,6 @@
       "y": 500
     },
     {
-      "file": "md files/About the framework.md",
-      "height": 413,
-      "id": "b68e23f29c7efc58",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 774,
-      "x": -1080,
-      "y": 500
-    },
-    {
       "file": "md files/Things to consider.md",
       "height": 280,
       "id": "41d5cf2d3288db38",
@@ -666,6 +655,17 @@
       "width": 480,
       "x": -786,
       "y": 250
+    },
+    {
+      "file": "md files/About the framework.md",
+      "height": 425,
+      "id": "b68e23f29c7efc58",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 774,
+      "x": -1080,
+      "y": 500
     }
   ]
 }
