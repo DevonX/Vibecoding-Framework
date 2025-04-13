@@ -155,16 +155,6 @@
       "toSide": "bottom"
     },
     {
-      "fromNode": "3c9a49b1dc4b6afe",
-      "fromSide": "left",
-      "id": "9f4abab8a114b5b7",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "toNode": "4716f0059bdb5d0a",
-      "toSide": "bottom"
-    },
-    {
       "color": "5",
       "fromNode": "2fe6f9ba4c2928bf",
       "fromSide": "left",
@@ -267,12 +257,22 @@
       },
       "toNode": "4716f0059bdb5d0a",
       "toSide": "top"
+    },
+    {
+      "fromNode": "41d5cf2d3288db38",
+      "fromSide": "left",
+      "id": "7bf664a2d7c9a472",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "4716f0059bdb5d0a",
+      "toSide": "bottom"
     }
   ],
   "nodes": [
     {
       "color": "5",
-      "height": 730,
+      "height": 740,
       "id": "5ab09e3c15c1b496",
       "label": "Cursor rules",
       "styleAttributes": {
@@ -317,42 +317,6 @@
       "y": 137
     },
     {
-      "color": "5",
-      "height": 380,
-      "id": "95b18c607237a608",
-      "styleAttributes": {
-      },
-      "text": "# Coding pattern preferences\n\n– Always prefer simple solutions \n– Avoid duplication of code whenever possible, which means checking for other areas of the codebase that might already have similar code and functionality \n– Write code that takes into account the different environments: dev, test, and prod \n– You are careful to only make changes that are requested or you are confident are well understood and related to the change being requested \n– When fixing an issue or bug, do not introduce a new pattern or technology without first exhausting all options for the existing implementation. And if you finally do this, make sure to remove the old implementation afterwards so we don’t have duplicate logic. \n– Keep the codebase very clean and organized \n– Avoid writing scripts in files if possible, especially if the script is likely only to be run once \n– Avoid having files over 200–300 lines of code. Refactor at that point. \n– Mocking data is only needed for tests, never mock data for dev or prod \n– Never add stubbing or fake data patterns to code that affects the dev or prod environments \n– Never overwrite my .env file without first asking and confirming",
-      "type": "text",
-      "width": 1200,
-      "x": -1026,
-      "y": -600
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "a3d857b0371b6f86",
-      "styleAttributes": {
-      },
-      "text": "Context aware rules?",
-      "type": "text",
-      "width": 260,
-      "x": -1020,
-      "y": -680
-    },
-    {
-      "color": "5",
-      "height": 200,
-      "id": "5fd37bab9aeb1937",
-      "styleAttributes": {
-      },
-      "text": "# Coding workflow preferences\n— Focus on the areas of code relevant to the task\n— Do not touch code that is unrelated to the task\n— Write thorough tests for all major functionality\n— Avoid making major changes to the patterns and architecture of how a feature works, after it has shown to work well, unless explicitly instructed\n— Always think about what other methods and areas of code might be affected by code changes",
-      "type": "text",
-      "width": 1194,
-      "x": -1020,
-      "y": -200
-    },
-    {
       "color": "6",
       "height": 180,
       "id": "3ecd7791f3556c87",
@@ -365,28 +329,6 @@
       "y": 70
     },
     {
-      "height": 180,
-      "id": "c77324f62d766302",
-      "styleAttributes": {
-      },
-      "text": "## List of common LLM flaws to watch out for\n- Hallucinations\n- context degration",
-      "type": "text",
-      "width": 459,
-      "x": -260,
-      "y": 500
-    },
-    {
-      "height": 390,
-      "id": "e5ac3e86b0e8fa08",
-      "styleAttributes": {
-      },
-      "text": "## About the framework\nThis is a framework that is made to make working with vibe coding as efficient and as cheap as possible, that means no running API costs and as little of subscriptions as possible, This workflow is changing as soon as the tools gets better and there is new methods that makes the workflow either easier to work with, cheaper, faster and so on. Right now the framework is set around cursor because it gives you \"unlimited\" API access to the models that it provides without you stumbling into unforeseen cost that might run rampant because of some API that is hard to track, I know there is other projects out there that is \"free\" to use but either require a direct API key or running the plugin on a local model. As of now there is not any model that i know of that can do well enough on the tasks that is required to complete a project. That might change in the future. I also try to avoid web based solutions because the terms might change and therefore the costs might change too. Having everything local and free makes it so that when the system gets good enough you can just start it and leave it without having to worry about you wallet getting empty. ",
-      "type": "text",
-      "width": 766,
-      "x": -1080,
-      "y": 290
-    },
-    {
       "height": 60,
       "id": "14bae7c208f10550",
       "styleAttributes": {
@@ -396,6 +338,53 @@
       "width": 164,
       "x": -183,
       "y": 220
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "a3d857b0371b6f86",
+      "styleAttributes": {
+      },
+      "text": "Context aware rules?",
+      "type": "text",
+      "width": 260,
+      "x": -86,
+      "y": -690
+    },
+    {
+      "color": "5",
+      "file": "md files/Coding pattern preferences.md",
+      "height": 400,
+      "id": "738209d690b5da7a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1194,
+      "x": -1020,
+      "y": -619
+    },
+    {
+      "color": "5",
+      "file": "md files/Coding workflow preferences.md",
+      "height": 200,
+      "id": "12ecff2d655095d0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1194,
+      "x": -1020,
+      "y": -190
+    },
+    {
+      "file": "md files/About the framework.md",
+      "height": 400,
+      "id": "b68e23f29c7efc58",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 774,
+      "x": -1080,
+      "y": 280
     },
     {
       "height": 60,
@@ -410,85 +399,14 @@
     },
     {
       "height": 60,
-      "id": "aea7c1cf597b4584",
+      "id": "7d7eedf7a2059178",
       "styleAttributes": {
       },
-      "text": "Gemini 3.5",
+      "text": "Product requirements document (PRD)",
       "type": "text",
-      "width": 164,
-      "x": -183,
-      "y": 340
-    },
-    {
-      "height": 60,
-      "id": "2f3bab4ccf1de033",
-      "styleAttributes": {
-      },
-      "text": "Local model?",
-      "type": "text",
-      "width": 164,
-      "x": -182,
-      "y": 400
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "926322ba6632c064",
-      "styleAttributes": {
-      },
-      "text": "Taskmaster",
-      "type": "text",
-      "width": 370,
-      "x": 380,
-      "y": -380
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "e29f454d03a8781c",
-      "styleAttributes": {
-      },
-      "text": "Project rules",
-      "type": "text",
-      "width": 370,
-      "x": 380,
-      "y": -320
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "4031596c51df87f3",
-      "styleAttributes": {
-      },
-      "text": "Technical stack",
-      "type": "text",
-      "width": 370,
-      "x": 380,
-      "y": -260
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "eb209b991e0981d8",
-      "styleAttributes": {
-      },
-      "text": "**Model Context Protocol** (MCP)",
-      "type": "text",
-      "width": 370,
-      "x": 380,
-      "y": -200
-    },
-    {
-      "color": "5",
-      "height": 140,
-      "id": "2fe6f9ba4c2928bf",
-      "styleAttributes": {
-      },
-      "text": "### Agent2Agent Protocol (A2A\nVery new technology. will get updated when more comes online.",
-      "type": "text",
-      "width": 370,
-      "x": 380,
-      "y": -140
+      "width": 248,
+      "x": -100,
+      "y": 137
     },
     {
       "height": 60,
@@ -515,39 +433,6 @@
     },
     {
       "height": 60,
-      "id": "7d7eedf7a2059178",
-      "styleAttributes": {
-      },
-      "text": "Product requirements document (PRD)",
-      "type": "text",
-      "width": 248,
-      "x": -100,
-      "y": 137
-    },
-    {
-      "height": 295,
-      "id": "3c9a49b1dc4b6afe",
-      "styleAttributes": {
-      },
-      "text": "## Things to consider \n\n- Chat length \n- context window \n- different ai models for different tasks\n- parallel promoting\n- Context integrity\n- Size of the file that contains the code\n- Price to performance",
-      "type": "text",
-      "width": 430,
-      "x": 320,
-      "y": 385
-    },
-    {
-      "height": 60,
-      "id": "6a77c10668d456c5",
-      "styleAttributes": {
-      },
-      "text": "Project description",
-      "type": "text",
-      "width": 200,
-      "x": 420,
-      "y": 260
-    },
-    {
-      "height": 60,
       "id": "81b2adb69f6fa6f8",
       "styleAttributes": {
       },
@@ -558,51 +443,26 @@
       "y": 137
     },
     {
-      "color": "5",
-      "height": 175,
-      "id": "812a92839fda3068",
-      "styleAttributes": {
-      },
-      "text": "Not to be confused with the Taskmaster project on GitHub. While that project is amazing it requires a API key that has running costs, this is outside the scope of this framework. The taskmaster needs to have a solution that is not API based to minimize costs.",
-      "type": "text",
-      "width": 405,
-      "x": 820,
-      "y": -437
-    },
-    {
-      "color": "5",
       "height": 60,
-      "id": "36023878ba3ff776",
+      "id": "aea7c1cf597b4584",
       "styleAttributes": {
       },
-      "text": "Project specific ",
+      "text": "Gemini 3.5",
       "type": "text",
-      "width": 405,
-      "x": 820,
-      "y": -260
+      "width": 164,
+      "x": -183,
+      "y": 340
     },
     {
-      "color": "5",
       "height": 60,
-      "id": "76e6f9020445d485",
+      "id": "2f3bab4ccf1de033",
       "styleAttributes": {
       },
-      "text": "(Insert MCP servers here)",
+      "text": "Local model?",
       "type": "text",
-      "width": 405,
-      "x": 820,
-      "y": -200
-    },
-    {
-      "height": 370,
-      "id": "9282e76507cebda9",
-      "styleAttributes": {
-      },
-      "text": "# Future framework improvements\n- A protocol that looks for code snippets in a public library that fills the requirements of the task needed instead of the AI generating code every time again and again. This will ensure that the code works every time because the code is tested and works and it will reduce the workload of the agents making the project.\n- An Appstore of agents that uses the A2A protocol that is specialised for certain tasks improving efficiency. ",
-      "type": "text",
-      "width": 445,
-      "x": 780,
-      "y": 310
+      "width": 164,
+      "x": -182,
+      "y": 400
     },
     {
       "color": "5",
@@ -614,7 +474,152 @@
       "type": "text",
       "width": 370,
       "x": 380,
-      "y": -440
+      "y": -350
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "926322ba6632c064",
+      "styleAttributes": {
+      },
+      "text": "Taskmaster",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -290
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "e29f454d03a8781c",
+      "styleAttributes": {
+      },
+      "text": "Project rules",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -230
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "4031596c51df87f3",
+      "styleAttributes": {
+      },
+      "text": "Technical stack",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -170
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "eb209b991e0981d8",
+      "styleAttributes": {
+      },
+      "text": "**Model Context Protocol** (MCP)",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -110
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "2fe6f9ba4c2928bf",
+      "styleAttributes": {
+      },
+      "text": "### Agent2Agent Protocol (A2A\nVery new technology. will get updated when more comes online.",
+      "type": "text",
+      "width": 370,
+      "x": 380,
+      "y": -50
+    },
+    {
+      "color": "5",
+      "height": 175,
+      "id": "812a92839fda3068",
+      "styleAttributes": {
+      },
+      "text": "Not to be confused with the Taskmaster project on GitHub. While that project is amazing it requires a API key that has running costs, this is outside the scope of this framework. The taskmaster needs to have a solution that is not API based to minimize costs.",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -347
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "36023878ba3ff776",
+      "styleAttributes": {
+      },
+      "text": "Project specific ",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -170
+    },
+    {
+      "file": "md files/Other notes.md",
+      "height": 320,
+      "id": "7d3e7aaeaf52ca95",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 845,
+      "x": 380,
+      "y": -700
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "76e6f9020445d485",
+      "styleAttributes": {
+      },
+      "text": "(Insert MCP servers here)",
+      "type": "text",
+      "width": 405,
+      "x": 820,
+      "y": -110
+    },
+    {
+      "file": "md files/List of common LLM flaws to watch out for.md",
+      "height": 185,
+      "id": "5c4308731365df52",
+      "type": "file",
+      "width": 440,
+      "x": -200,
+      "y": 495
+    },
+    {
+      "file": "md files/Things to consider.md",
+      "height": 280,
+      "id": "41d5cf2d3288db38",
+      "type": "file",
+      "width": 400,
+      "x": 320,
+      "y": 400
+    },
+    {
+      "height": 60,
+      "id": "6a77c10668d456c5",
+      "styleAttributes": {
+      },
+      "text": "Project description",
+      "type": "text",
+      "width": 200,
+      "x": 420,
+      "y": 220
+    },
+    {
+      "file": "md files/Future framework improvements.md",
+      "height": 400,
+      "id": "69cf0771906fa93a",
+      "type": "file",
+      "width": 400,
+      "x": 825,
+      "y": 280
     }
   ]
 }

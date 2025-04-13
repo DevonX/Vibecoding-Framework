@@ -1,0 +1,2 @@
+- A protocol that looks for code snippets in a public library that fills the requirements of the task needed instead of the AI generating code every time again and again. This will ensure that the code works every time because the code is tested and works and it will reduce the workload of the agents making the project.
+- An Appstore of agents that uses the A2A protocol that is specialised for certain tasks improving efficiency. 

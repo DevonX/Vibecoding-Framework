@@ -1,0 +1,7 @@
+- Chat length 
+- context window 
+- different ai models for different tasks
+- parallel promoting
+- Context integrity
+- Size of the file that contains the code
+- Price to performance

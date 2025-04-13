@@ -22,16 +22,16 @@
             }
           },
           {
-            "id": "8a6f08779e0fd0b2",
+            "id": "adf2be0074e7c304",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Vibecoding workflow in cursor.canvas",
                 "viewState": {
-                  "x": 73.65613099771508,
-                  "y": 10.810357958872714,
-                  "zoom": -0.20930487452257965
+                  "x": 432.29767143933077,
+                  "y": 116.69951409929264,
+                  "zoom": -0.542638207855913
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -203,10 +203,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a6f08779e0fd0b2",
+  "active": "adf2be0074e7c304",
   "lastOpenFiles": [
-    "readme.md",
+    "md files/Future framework improvements.md",
     "Vibecoding workflow in cursor.canvas",
+    "md files/Things to consider.md",
+    "md files/List of common LLM flaws to watch out for.md",
+    "md files/About the framework.md",
+    "md files/Coding pattern preferences.md",
+    "readme.md",
+    "md files/Coding workflow preferences.md",
+    "md files/Other notes.md",
+    "md files",
     "requirements.md",
     "images/framework.png",
     "LICENSE",
