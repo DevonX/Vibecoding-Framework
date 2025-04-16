@@ -239,16 +239,6 @@
     },
     {
       "color": "5",
-      "fromNode": "76e6f9020445d485",
-      "fromSide": "left",
-      "id": "92c39a92beeb546c",
-      "styleAttributes": {
-      },
-      "toNode": "eb209b991e0981d8",
-      "toSide": "right"
-    },
-    {
-      "color": "5",
       "fromNode": "81ba03c1f84c282d",
       "fromSide": "left",
       "id": "1f4fe18705c968a0",
@@ -285,6 +275,27 @@
       },
       "toNode": "2f3bab4ccf1de033",
       "toSide": "left"
+    },
+    {
+      "color": "5",
+      "fromNode": "c3c50a9ab1fcbee8",
+      "fromSide": "left",
+      "id": "a8a630b6db525318",
+      "styleAttributes": {
+      },
+      "toNode": "eb209b991e0981d8",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4652b1d4654e9552",
+      "fromSide": "left",
+      "id": "fe5f3e3ba05c2b69",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "eb209b991e0981d8",
+      "toSide": "right"
     }
   ],
   "nodes": [
@@ -299,18 +310,6 @@
       "width": 1320,
       "x": -1080,
       "y": -700
-    },
-    {
-      "color": "4",
-      "height": 60,
-      "id": "5b19bb5b785903cd",
-      "styleAttributes": {
-      },
-      "text": "### START",
-      "type": "text",
-      "width": 137,
-      "x": -700,
-      "y": 137
     },
     {
       "height": 60,
@@ -332,65 +331,6 @@
       "type": "text",
       "width": 171,
       "x": -306,
-      "y": 137
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "a3d857b0371b6f86",
-      "styleAttributes": {
-      },
-      "text": "Context aware rules?",
-      "type": "text",
-      "width": 260,
-      "x": -86,
-      "y": -690
-    },
-    {
-      "color": "5",
-      "file": "md files/Coding pattern preferences.md",
-      "height": 400,
-      "id": "738209d690b5da7a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 1194,
-      "x": -1020,
-      "y": -619
-    },
-    {
-      "color": "5",
-      "file": "md files/Coding workflow preferences.md",
-      "height": 200,
-      "id": "12ecff2d655095d0",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 1194,
-      "x": -1020,
-      "y": -190
-    },
-    {
-      "height": 60,
-      "id": "7d7eedf7a2059178",
-      "styleAttributes": {
-      },
-      "text": "Product requirements document (PRD)",
-      "type": "text",
-      "width": 248,
-      "x": -100,
-      "y": 137
-    },
-    {
-      "color": "5",
-      "height": 60,
-      "id": "4716f0059bdb5d0a",
-      "styleAttributes": {
-      },
-      "text": "[Cursor](https://www.cursor.com/) project",
-      "type": "text",
-      "width": 181,
-      "x": 199,
       "y": 137
     },
     {
@@ -418,16 +358,63 @@
       "y": -290
     },
     {
-      "color": "5",
-      "height": 60,
-      "id": "e29f454d03a8781c",
+      "file": "md files/Other notes.md",
+      "height": 320,
+      "id": "7d3e7aaeaf52ca95",
       "styleAttributes": {
       },
-      "text": "Project rules",
-      "type": "text",
-      "width": 400,
+      "type": "file",
+      "width": 845,
       "x": 380,
-      "y": -230
+      "y": -700
+    },
+    {
+      "color": "5",
+      "file": "md files/Coding pattern preferences.md",
+      "height": 400,
+      "id": "738209d690b5da7a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1194,
+      "x": -1020,
+      "y": -619
+    },
+    {
+      "color": "5",
+      "file": "md files/Coding workflow preferences.md",
+      "height": 200,
+      "id": "12ecff2d655095d0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1194,
+      "x": -1020,
+      "y": -190
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "5b19bb5b785903cd",
+      "styleAttributes": {
+      },
+      "text": "### START",
+      "type": "text",
+      "width": 137,
+      "x": -700,
+      "y": 137
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "a3d857b0371b6f86",
+      "styleAttributes": {
+      },
+      "text": "Context aware rules?",
+      "type": "text",
+      "width": 260,
+      "x": -86,
+      "y": -690
     },
     {
       "color": "5",
@@ -442,30 +429,6 @@
       "y": -170
     },
     {
-      "color": "5",
-      "height": 60,
-      "id": "eb209b991e0981d8",
-      "styleAttributes": {
-      },
-      "text": "[**Model Context Protocol** (MCP)](https://www.anthropic.com/news/model-context-protocol)",
-      "type": "text",
-      "width": 400,
-      "x": 380,
-      "y": -110
-    },
-    {
-      "color": "5",
-      "height": 140,
-      "id": "2fe6f9ba4c2928bf",
-      "styleAttributes": {
-      },
-      "text": "### [Agent2Agent Protocol (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)\nVery new technology. will get updated when more comes online.",
-      "type": "text",
-      "width": 400,
-      "x": 380,
-      "y": -50
-    },
-    {
       "height": 60,
       "id": "14bae7c208f10550",
       "styleAttributes": {
@@ -475,6 +438,40 @@
       "width": 164,
       "x": -183,
       "y": 220
+    },
+    {
+      "height": 60,
+      "id": "2f3bab4ccf1de033",
+      "styleAttributes": {
+      },
+      "text": "Local model?",
+      "type": "text",
+      "width": 164,
+      "x": -182,
+      "y": 400
+    },
+    {
+      "height": 60,
+      "id": "7d7eedf7a2059178",
+      "styleAttributes": {
+      },
+      "text": "Product requirements document (PRD)",
+      "type": "text",
+      "width": 248,
+      "x": -100,
+      "y": 137
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "e29f454d03a8781c",
+      "styleAttributes": {
+      },
+      "text": "Project rules",
+      "type": "text",
+      "width": 400,
+      "x": 380,
+      "y": -230
     },
     {
       "height": 60,
@@ -499,37 +496,16 @@
       "y": 340
     },
     {
+      "color": "5",
       "height": 60,
-      "id": "2f3bab4ccf1de033",
+      "id": "4716f0059bdb5d0a",
       "styleAttributes": {
       },
-      "text": "Local model?",
+      "text": "[Cursor](https://www.cursor.com/) project",
       "type": "text",
-      "width": 164,
-      "x": -182,
-      "y": 400
-    },
-    {
-      "file": "md files/List of common LLM flaws to watch out for.md",
-      "height": 425,
-      "id": "5c4308731365df52",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 440,
-      "x": -196,
-      "y": 500
-    },
-    {
-      "file": "md files/Things to consider.md",
-      "height": 280,
-      "id": "41d5cf2d3288db38",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 320,
-      "y": 645
+      "width": 181,
+      "x": 199,
+      "y": 137
     },
     {
       "color": "5",
@@ -558,80 +534,37 @@
     {
       "color": "5",
       "height": 60,
-      "id": "76e6f9020445d485",
+      "id": "eb209b991e0981d8",
       "styleAttributes": {
       },
-      "text": "(Insert MCP servers here)",
+      "text": "[**Model Context Protocol** (MCP)](https://www.anthropic.com/news/model-context-protocol)",
       "type": "text",
-      "width": 405,
-      "x": 825,
+      "width": 400,
+      "x": 380,
       "y": -110
     },
     {
-      "file": "md files/Other notes.md",
-      "height": 320,
-      "id": "7d3e7aaeaf52ca95",
+      "color": "5",
+      "height": 140,
+      "id": "2fe6f9ba4c2928bf",
       "styleAttributes": {
       },
-      "type": "file",
-      "width": 845,
-      "x": 380,
-      "y": -700
-    },
-    {
-      "file": "md files/Future framework improvements.md",
-      "height": 400,
-      "id": "69cf0771906fa93a",
-      "styleAttributes": {
-      },
-      "type": "file",
+      "text": "### [Agent2Agent Protocol (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)\nVery new technology. will get updated when more comes online.",
+      "type": "text",
       "width": 400,
-      "x": 830,
-      "y": 525
+      "x": 380,
+      "y": -50
     },
     {
-      "height": 60,
-      "id": "9ed7f99c33736348",
+      "file": "md files/List of common LLM flaws to watch out for.md",
+      "height": 425,
+      "id": "5c4308731365df52",
       "styleAttributes": {
       },
-      "text": "Documentation",
-      "type": "text",
-      "width": 200,
-      "x": 440,
-      "y": 137
-    },
-    {
-      "height": 60,
-      "id": "6a77c10668d456c5",
-      "styleAttributes": {
-      },
-      "text": "Project description",
-      "type": "text",
-      "width": 200,
-      "x": 703,
-      "y": 220
-    },
-    {
-      "height": 60,
-      "id": "78252e573adaa700",
-      "styleAttributes": {
-      },
-      "text": "Push to [GitHub](https://github.com/)",
-      "type": "text",
-      "width": 200,
-      "x": 703,
-      "y": 137
-    },
-    {
-      "height": 60,
-      "id": "81b2adb69f6fa6f8",
-      "styleAttributes": {
-      },
-      "text": "Finished product",
-      "type": "text",
-      "width": 200,
-      "x": 963,
-      "y": 137
+      "type": "file",
+      "width": 440,
+      "x": -196,
+      "y": 500
     },
     {
       "height": 60,
@@ -666,6 +599,96 @@
       "width": 774,
       "x": -1080,
       "y": 500
+    },
+    {
+      "height": 60,
+      "id": "9ed7f99c33736348",
+      "styleAttributes": {
+      },
+      "text": "Documentation",
+      "type": "text",
+      "width": 200,
+      "x": 440,
+      "y": 137
+    },
+    {
+      "height": 60,
+      "id": "78252e573adaa700",
+      "styleAttributes": {
+      },
+      "text": "Push to [GitHub](https://github.com/)",
+      "type": "text",
+      "width": 200,
+      "x": 703,
+      "y": 137
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "c3c50a9ab1fcbee8",
+      "styleAttributes": {
+      },
+      "text": "[Context7 MCP](https://github.com/upstash/context7-mcp)",
+      "type": "text",
+      "width": 405,
+      "x": 825,
+      "y": -110
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "4652b1d4654e9552",
+      "styleAttributes": {
+      },
+      "text": "Other MCP servers goes here",
+      "type": "text",
+      "width": 400,
+      "x": 830,
+      "y": -50
+    },
+    {
+      "file": "md files/Things to consider.md",
+      "height": 280,
+      "id": "41d5cf2d3288db38",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 320,
+      "y": 645
+    },
+    {
+      "height": 60,
+      "id": "6a77c10668d456c5",
+      "styleAttributes": {
+      },
+      "text": "Project description",
+      "type": "text",
+      "width": 200,
+      "x": 703,
+      "y": 220
+    },
+    {
+      "file": "md files/Future framework improvements.md",
+      "height": 400,
+      "id": "69cf0771906fa93a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 830,
+      "y": 525
+    },
+    {
+      "height": 60,
+      "id": "81b2adb69f6fa6f8",
+      "styleAttributes": {
+      },
+      "text": "Finished product",
+      "type": "text",
+      "width": 200,
+      "x": 963,
+      "y": 137
     }
   ]
 }
